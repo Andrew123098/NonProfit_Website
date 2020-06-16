@@ -1,5 +1,9 @@
 """nonprofitWebsite URL Configuration
 
+urls.py: The URL declarations for this Django project; a “table of contents” of your Django-powered site. 
+You can read more about URLs in URL dispatcher.
+https://docs.djangoproject.com/en/3.0/topics/http/urls/
+
 The `urlpatterns` list routes URLs to views. For more information please see:
     https://docs.djangoproject.com/en/3.0/topics/http/urls/
 Examples:
@@ -14,8 +18,9 @@ Including another URLconf
     2. Add a URL to urlpatterns:  path('blog/', include('blog.urls'))
 """
 from django.contrib import admin
-from django.urls import path
+from django.urls import path, include
 
 urlpatterns = [
+    path('polls/', include('polls.urls')),
     path('admin/', admin.site.urls),
 ]

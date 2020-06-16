@@ -8,6 +8,10 @@ https://docs.djangoproject.com/en/3.0/topics/settings/
 
 For the full list of settings and their values, see
 https://docs.djangoproject.com/en/3.0/ref/settings/
+
+settings.py: Settings/configuration for this Django project. 
+Django settings will tell you all about how settings work.
+https://docs.djangoproject.com/en/3.0/topics/settings/
 """
 
 import os

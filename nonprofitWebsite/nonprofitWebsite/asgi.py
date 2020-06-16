@@ -5,6 +5,10 @@ It exposes the ASGI callable as a module-level variable named ``application``.
 
 For more information on this file, see
 https://docs.djangoproject.com/en/3.0/howto/deployment/asgi/
+
+asgi.py: An entry-point for ASGI-compatible web servers to serve your project. See How to deploy with ASGI for more details.
+https://docs.djangoproject.com/en/3.0/howto/deployment/asgi/
+
 """
 
 import os
